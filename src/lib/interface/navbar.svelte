@@ -51,6 +51,13 @@
         z-index: 1;
         user-select: none;
 
+        .links {
+            a {
+                margin-left: 0.125rem;
+                margin-right: 0.125rem;
+            }
+        }
+
         .change {
             path {
                 fill: var(--primary);
