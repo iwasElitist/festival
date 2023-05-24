@@ -1,0 +1,75 @@
+@import 'material-icons/iconfont/material-icons.css';
+
+.material-icons {
+    margin-right: 0.25rem;
+    vertical-align: text-bottom;
+}
+
+
+@font-face {
+    font-family: "Dosis Regular";
+    src: url("./fonts/Dosis-Regular.woff2")
+}
+
+:root {
+    --font-family: "Dosis Regular";
+}
+
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+    --card-box-shadow:
+        0.0145rem 0.029rem 0.174rem rgba(71, 153, 102, 0.05),
+        0.0335rem 0.067rem 0.402rem rgba(71, 153, 102, 0.025),
+        0.0625rem 0.125rem 0.75rem rgba(71, 153, 102, 0.05),
+        0.1125rem 0.225rem 1.35rem rgba(71, 153, 102, 0.05),
+        0.2085rem 0.417rem 2.502rem rgba(71, 153, 102, 0.05),
+        0.5rem 1rem 6rem rgba(71, 153, 102, 0.05),
+        0 0 0 0.0625rem rgba(71, 153, 102, 0.025);
+    --primary: #5ec986;
+    --credit-border: var(--muted-border-color);
+    --primary-hover: #489966;
+    --primary-focus: rgba(91, 229, 143, 50%);
+    --primary-inverse: #5ec986;
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+        --card-box-shadow:
+            0.0145rem 0.029rem 0.174rem rgba(71, 153, 102, 0.05),
+            0.0335rem 0.067rem 0.402rem rgba(71, 153, 102, 0.025),
+            0.0625rem 0.125rem 0.75rem rgba(71, 153, 102, 0.05),
+            0.1125rem 0.225rem 1.35rem rgba(71, 153, 102, 0.05),
+            0.2085rem 0.417rem 2.502rem rgba(71, 153, 102, 0.05),
+            0.5rem 1rem 6rem rgba(71, 153, 102, 0.05),
+            0 0 0 0.0625rem rgba(71, 153, 102, 0.025);
+        --credit-border: #2c3b41;
+        --background-color: #131d22;
+        --card-background-color: #1c2c33;
+        --card-sectionning-background-color: #223239;
+        --muted-border-color: #26353b;
+        --primary: #5ec986;
+        --primary-hover: #70cf93;
+        --primary-focus: rgba(71, 153, 102, 50%);
+        --primary-inverse: #5ec986;
+    }
+}
+
+[data-theme="dark"] {
+    --card-box-shadow:
+        0.0145rem 0.029rem 0.174rem rgba(71, 153, 102, 0.01698),
+        0.0335rem 0.067rem 0.402rem rgba(71, 153, 102, 0.024),
+        0.0625rem 0.125rem 0.75rem rgba(71, 153, 102, 0.03),
+        0.1125rem 0.225rem 1.35rem rgba(71, 153, 102, 0.036),
+        0.2085rem 0.417rem 2.502rem rgba(71, 153, 102, 0.04302),
+        0.5rem 1rem 6rem rgba(71, 153, 102, 0.06),
+        0 0 0 0.0625rem rgba(71, 153, 102, 0.015);
+    --credit-border: #2c3b41;
+    --background-color: #131d22;
+    --card-background-color: #1c2c33;
+    --card-sectionning-background-color: #223239;
+    --muted-border-color: #26353b;
+    --primary: #5ec986;
+    --primary-hover: #70cf93;
+    --primary-focus: rgba(71, 153, 102, 50%);
+    --primary-inverse: #5ec986;
+}
