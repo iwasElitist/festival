@@ -27,16 +27,13 @@
 <div class="background">
     <main class="container">
         <div class="title">
-            <hgroup>
-                <h2 class="bg-grad">Pitch 101</h2>
-                <h3>Budget Ads</h3>
-            </hgroup>
+            <h2 class="bg-grad">Pitch 101</h2>
         </div>
         <article>
             <p>Do you know what the definition of insanity is? Insanity is doing the same thing over and over again, expecting things to change. That's what advertisements are becoming. Repetitive. Boring. Changless. Aren't you tired of these ads? This is your chance to change it all. We give the product; you make the ad. The goal? To catch the eye of every beholder! Every word, every shot, and every transition matters. Captivate the audience with your Pitch 101.</p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><i>What if I adblock reality?</i>
+                    <span class="material-icons">info</span><i>Contact Devin Maheswar at +91 80755 13601 for more info</i>
                 </div>
             </footer>
         </article>
@@ -79,8 +76,10 @@
     }
 
     .bg-grad {
+        font-size: 2rem;
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
         background-clip: text;
+        margin-bottom: 0;
         color: transparent;
     }
 

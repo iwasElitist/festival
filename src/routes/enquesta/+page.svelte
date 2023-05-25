@@ -27,16 +27,13 @@
 <div class="background">
     <main class="container">
         <div class="title">
-            <hgroup>
-                <h2 class="bg-grad">Enquesta</h2>
-                <h3>Is it pronounced Enquesta or Enquesta?</h3>
-            </hgroup>
+            <h2 class="bg-grad">Enquesta</h2>
         </div>
         <article>
             <p>Take on the challenge in this battle where it matters what you know and how much of it you know. Indeed, one must seek the truth within, not without. All that matters is your ability to discern. Cut through the veils of ignorance in order to find the answer hidden right where you are looking. Enter the gates, for Enquesta awaits a new champion.</p>
             <footer>
             <div class="info">
-                <span class="material-icons">info</span><i>Certified big-brain moment</i>
+                <span class="material-icons">info</span><i>Contact Joel Jobby Jacob at +91 94479 76650 for more info</i>
             </div>
             </footer>
         </article>
@@ -66,8 +63,10 @@
     }
 
     .bg-grad {
+        font-size: 2rem;
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
         background-clip: text;
+        margin-bottom: 0;
         color: transparent;
     }
 

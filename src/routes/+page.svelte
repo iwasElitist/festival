@@ -12,19 +12,43 @@
 </svelte:head>
 
 <div class="layout">
-    <img src="./images/background-FX.svg" alt="affects"/>
+    <video id="video" autoplay loop muted>
+        <source src="background.mp4"/>
+    </video>
+    <img src="./images/lafest-aurora.svg" alt="affects"/>
     <div class="text">
         <div class="title">
             <h1>LAFEST</h1>
             <h1>2023</h1>
         </div>
-        <blockquote>
-            "Indulge in ardour, revel in grandeur"
+        <blockquote class="quote">
+            <p>"Indulge in ardour, revel in grandeur"</p>
         </blockquote>
     </div>
 </div>
 
 <style lang="scss">
+    #video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+    }
+
+    .quote {
+        border-inline-start-color: #26353b;
+
+        p {
+            margin: 0;
+            font-size: 1.25rem;
+            background-image: linear-gradient(to bottom right, seagreen 0%, seagreen 25%, aqua 75%);
+            background-clip: text;
+            color: transparent;
+        }
+    }
+
     div {
         display: flex;
         justify-content: center;
@@ -36,23 +60,23 @@
         .layout {
             display: flex;
             flex-direction: column;
-
             .text {
                 width: 100%;
                 @media screen and (min-width: 500px) {
                     width: 400px;
                 }
                 padding-bottom: 0;
+                padding-top: 0;
             }
 
             img {
-                width: 60%;
+                width: 50%;
             }
         }
     }
 
     img {
-        width: 40%;
+        width: 30%;
     }
 
     .title {

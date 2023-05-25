@@ -5,10 +5,7 @@
 <main class="container">
     <article>
         <header>
-            <hgroup>
-                <h1 class="bg-grad">Rules</h1>
-                <h2>Rules are meant to be broken! Oh wait… wrong context.</h2>
-            </hgroup>
+            <h1 class="bg-grad">Rules</h1>
         </header>
         <div class="rules">
             <div class="text-border"><p>The last date for submitting the completed forms is 15th June 2023.</p></div>
@@ -25,26 +22,15 @@
             <div class="text-border"><p>Participating schools are expected to cooperate with the organisers and maintain a spirit of healthy competition.</p></div>
             <div><p>The decision of the judges will be final.</p></div>
         </div>
-        <footer>
-            <div class="info">
-                <span class="material-icons">info</span><i>No seriously, don't break the rules</i>
-            </div>
-        </footer>
     </article>
 </main>
 
 <style lang="scss">
-    .info {
-        border: solid 1px rgba($color: aqua, $alpha: 0.25);
-        border-radius: var(--border-radius);
-        padding: 0.5rem;
-        width: fit-content;
-        background: rgba($color: aqua, $alpha: 0.125);
-    }
-
     .bg-grad {
+        font-size: 2rem;
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
         background-clip: text;
+        margin-bottom: 0;
         color: transparent;
     }
 

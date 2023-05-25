@@ -25,6 +25,9 @@
         0.2085rem 0.417rem 2.502rem rgba(71, 153, 102, 0.05),
         0.5rem 1rem 6rem rgba(71, 153, 102, 0.05),
         0 0 0 0.0625rem rgba(71, 153, 102, 0.025);
+    --background-color: #fffdf5;
+    --card-background-color: #fffef9;
+    --card-sectionning-background-color: #fffefa;
     --primary: #5ec986;
     --credit-border: var(--muted-border-color);
     --primary-hover: #489966;

@@ -27,16 +27,13 @@
 <div class="background">
     <main class="container">
         <div class="title">
-            <hgroup>
-                <h2 class="bg-grad">L'ebate</h2>
-                <h3>Redditors are foaming in the mouth as we speak.</h3>
-            </hgroup>
+            <h2 class="bg-grad">L'ebate</h2>
         </div>
         <article>
             <p>Here is a chance to showcase your literary prowess, fight for your ideas, and challenge your intellect in this cerebral battle fought not with swords or steel, but with logic and wit. Your convictions will be tested against those of others, and the best tool you possess is your own mind. Sharpen your senses, think outside the box, express yourself and revel in this singular experience we call L'ebate.</p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><i>Calling all debate lords</i>
+                    <span class="material-icons">info</span><i>Contact Matthew K. Mathen at +91 88484 08296 for more info</i>
                 </div>
             </footer>
         </article>
@@ -77,6 +74,8 @@
     }
 
     .bg-grad {
+        font-size: 2rem;
+        margin-bottom: 0;
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
         background-clip: text;
         color: transparent;

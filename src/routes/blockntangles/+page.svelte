@@ -27,16 +27,13 @@
 <div class="background">
     <main class="container">
         <div class="title">
-            <hgroup>
-                <h2 class="bg-grad">Block N' Tangles</h2>
-                <h3>What does the name mean though?</h3>
-            </hgroup>
+            <h2 class="bg-grad">Block N' Tangles</h2>
         </div>
         <article>
             <p>Learn. Adapt. Evolve. The matrix pushes you to your ultimate potential. Work fast but never alone in this improv event. Play your part and be content or step out of the mundane, aiming for the unprecedented. Be the stroke of luck your team desperately needs and open the pathway to glory. Block N' Tangles awaits.</p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><i>Average car insurance enjoyer</i>
+                    <span class="material-icons">info</span><i>Contact Navneeth V. Sanker at +91 94958 23690 for more info</i>
                 </div>
             </footer>
         </article>
@@ -71,8 +68,10 @@
     }
 
     .bg-grad {
+        font-size: 2rem;
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
         background-clip: text;
+        margin-bottom: 0;
         color: transparent;
     }
 

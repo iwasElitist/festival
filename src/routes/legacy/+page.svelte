@@ -6,17 +6,9 @@
 <main class="container">
     <article>
         <header>
-            <hgroup>
-                <h1 class="bg-grad">Legacy</h1>
-                <h2>The story behind what brought all of this to life.</h2>
-            </hgroup>
+            <h1 class="bg-grad">Legacy</h1>
         </header>
         <p>In November 1996, <b>Vivek Krishnan</b>, <b>Harish K.</b>, <b>Rahul Warrier</b> and their 12th standard classmates pleaded with the class teacher: <i>"Madam, we need a break from the grind of textbooks and classes; let's organise an inter-school arts festival."</i> The idea gathered momentum among students. But somebody had to get the green signal from the Principal <b>Fr. Mani Manimala</b>. One afternoon, as the school bell rang, the teacher surrounded by students egging her on told Fr. Mani, <i>"The students have been saying that they want to organise a festival for schools in the city."</i> The Principal, full of energy but looking stern as ever, replied, <i>"If you are ready to take full responsibility, go ahead."</i> The students who overheard this were ecstatic. The teacher who had bravely conveyed the proposal could not back out. Her students would ensure that, year after year.</p>
-        <footer>
-            <div class="info">
-                <span class="material-icons">help</span><i>I wonder why theres a time gap…</i>
-            </div>
-        </footer>
     </article>
     <article class="legacy">
         <div class="bg-img" style:background="#000000"><img src="./images/legacy/2022.webp" alt="legacy"></div>
@@ -133,15 +125,9 @@
         background: rgba($color: yellow, $alpha: 0.125);
     }
 
-    .info {
-        border: solid 1px rgba($color: aqua, $alpha: 0.25);
-        border-radius: var(--border-radius);
-        padding: 0.5rem;
-        width: fit-content;
-        background: rgba($color: aqua, $alpha: 0.125);
-    }
-
     .bg-grad {
+        font-size: 2rem;
+        margin-bottom: 0;
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
         background-clip: text;
         color: transparent;

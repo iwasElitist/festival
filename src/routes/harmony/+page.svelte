@@ -27,15 +27,12 @@
 <div class="background">
     <main class="container">
         <div class="title">
-            <hgroup>
-                <h2 class="bg-grad">Harmony</h2>
-                <h3>Yeah, I do like music. How did you know?</h3>
-            </hgroup>
+            <h2 class="bg-grad">Harmony</h2>
         </div>
         <article>
             <p>Listen as every chord that is struck takes you to a place supernal… As the symphony of melodies flows through the air and enters the very pores of your skin… As music infused with passion permeates the atmosphere… As your heartbeat syncs with the beats echoing around you… Listen to Harmony.</p>
             <footer>
-                <div class="info"><span class="material-icons">info</span><i>Sounds cool, I'm in.</i></div>
+                <div class="info"><span class="material-icons">info</span><i>Contact Niranjan B. Kumar at +91 91882 62721 for more info</i></div>
             </footer>
         </article>
         <article>
@@ -76,6 +73,8 @@
 
     .bg-grad {
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
+        font-size: 2rem;
+        margin-bottom: 0;
         background-clip: text;
         color: transparent;
     }

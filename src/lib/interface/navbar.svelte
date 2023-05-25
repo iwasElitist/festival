@@ -15,7 +15,7 @@
             <a href="../legacy" role="button" class="outline">Legacy</a>
             <a href="../rules" role="button" class="outline">Rules</a>
             <a href="../events" role="button" class="outline">Events</a>
-            <a href="../about" role="button" class="outline">About</a>
+            <a href="../about" role="button" class="outline">Contacts</a>
         </li>
         <li id="button-container">
             <button class="btn" aria-label="Open the menu" on:click="{() => menuOpen = !menuOpen}">
@@ -34,7 +34,7 @@
                     <a href="../legacy" role="button" class="outline">Legacy</a>
                     <a href="../rules" role="button" class="outline">Rules</a>
                     <a href="../events" role="button" class="outline">Events</a>
-                    <a href="../about" role="button" class="outline">About</a>
+                    <a href="../about" role="button" class="outline">Contacts</a>
                 </li>
             </ul>
         </div>

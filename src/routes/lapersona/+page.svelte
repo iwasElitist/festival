@@ -27,16 +27,13 @@
 <div class="background">
     <main class="container">
         <div class="title">
-            <hgroup>
-                <h2 class="bg-grad">La Persona</h2>
-                <h3>Oui, c'est ma personnalité</h3>
-            </hgroup>
+            <h2 class="bg-grad">La Persona</h2>
         </div>
         <article>
             <p>Cut through the facade and bring your actual self to the stage. This is the only event in LA Fest where you are truly and completely alone. Only your persona can save you in this war with yourself, therefore let your truest self be judged without fear of being judged. The different levels of your persona will be explored and tested. You may even be exposed. Bask in the glory of your own authenticity. Welcome to La Persona</p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><i>Mission: Survive</i>
+                    <span class="material-icons">info</span><i>Contact Madhav Pradeep at +91 97784 87168 for more info</i>
                 </div>
             </footer>
         </article>
@@ -73,7 +70,9 @@
     }
 
     .bg-grad {
+        font-size: 2rem;
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
+        margin-bottom: 0;
         background-clip: text;
         color: transparent;
     }

@@ -27,16 +27,13 @@
 <div class="background">
     <main class="container">
         <div class="title">
-            <hgroup>
-                <h2 class="bg-grad">Dance O' Mania</h2>
-                <h3>Is that a history reference? Choreomania anyone?</h3>
-            </hgroup>
+            <h2 class="bg-grad">Dance O' Mania</h2>
         </div>
         <article>
             <p>Lose yourself in the groove of the beat as you set the stage on fire and prove to the world your burning desire. Enthral the audience with the rhythem coursing through your veins. Match the beat and bring forth the heat in Dance O' Mania.</p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><i>Jojo fans when… Ok I'll stop</i>
+                    <span class="material-icons">info</span><i>Contact Aadithyan K.A. at +91 96336 44710 for more info</i>
                 </div>
             </footer>
         </article>
@@ -77,6 +74,8 @@
 
     .bg-grad {
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
+        font-size: 2rem;
+        margin-bottom: 0;
         background-clip: text;
         color: transparent;
     }

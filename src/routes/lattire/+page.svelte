@@ -27,16 +27,13 @@
 <div class="background">
     <main class="container">
         <div class="title">
-            <hgroup>
-                <h2 class="bg-grad">L'attire</h2>
-                <h3>How haute couture of you.</h3>
-            </hgroup>
+            <h2 class="bg-grad">L'attire</h2>
         </div>
         <article>
             <p>Boldness, creativity, uniqueness and elegance. L'attire is an event where you need to present all these skills to put yourself ahead of others. Follow the trend or set a new one. All that matters is the outcome. So, select your front man, create a work of art and prove yourself on the dais. Step up and conquer L'attire.</p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><i>Harry Potter Balenciaga would be proud</i>
+                    <span class="material-icons">info</span><i>Contact Don Roshan Thomas at +91 70125 73189 for more info</i>
                 </div>
             </footer>
         </article>
@@ -77,7 +74,9 @@
     }
 
     .bg-grad {
+        font-size: 2rem;
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
+        margin-bottom: 0;
         background-clip: text;
         color: transparent;
     }

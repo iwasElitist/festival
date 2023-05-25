@@ -6,25 +6,20 @@
 <main class="container">
     <article>
         <header>
-            <hgroup>
-                <h1 class="bg-grad">About</h1>
-                <h2>Who even am I?…</h2>
-            </hgroup>
+            <h1 class="bg-grad">About</h1>
         </header>
-        <p>Hey there! Welcome to the about page for the Media Team 2024, How has your day been?… Hmph, maybe asking you this on a static webpage isn't the most effective way to communicate not like the effective communication, but you know what is effective communication? this message to our spon-</p>
-        <p>Sorry about that, got a bit carried away with the role there, we in the media team believe in the power of effective communication and the ability of media to shape and inspire our community. Our Media Team consists of talented and passionate individuals dedicated to delivering compelling narritives, either directly or indirectly, capturing memorable moments and of course keeping our fellow peers informed, like in the case of this website. By organising this year's LA Fest we hope to carry on with the once lost tradition of taking the baton held out by our previous batch and making sure that the light of this torch never goes out. We hope that when the day comes that all of you attend because we promise you, you will not regret it.</p>
-        <p>Media Team member <b>[redacted]</b> signing out.</p>
-        <p><b>[transmission cut]</b></p>
-        <footer>
-            <div class="info">
-                <span class="material-icons">info</span><i>100% organic and student grown</i>
-            </div>
-        </footer>
+        <p>The realm of Life and Arts opens up once again.</p>
+        <p>Enter reality and embrace the truth as we search for the pinnacle of human talent. Give everything you have to offer. Engrave your presence in this arena which may be the provenance of your aptitude yet to be discovered. The boulevard to Zion awaits your arrival. Overcome trials and prove the profound depth of your Ardour.</p>
+        <p>Welcome to the 23rd iteration of Life and Arts.</p>
     </article>
     <article>
         <details>
             <summary>Contacts</summary>
             <div class="members">
+                <hgroup class="text-border">
+                    <h5>Principal</h5>
+                    <h6>Fr. Roy Alex, SJ, +91 89214 72900</h6>
+                </hgroup>
                 <hgroup class="text-border">
                     <h5>General Coordinator</h5>
                     <h6>Adved Krishna A.S., +91 82811 70702</h6>
@@ -72,24 +67,35 @@
             </div>
         </details>
         <details>
-            <summary>Dolor</summary>
-            <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.</p>
+            <summary>Media Team</summary>
             <div class="members">
                 <hgroup class="text-border">
-                    <h5>Lorem ipsum</h5>
-                    <h6>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</h6>
+                    <h5>Aromal</h5>
+                    <h6>Media Team 2024</h6>
                 </hgroup>
                 <hgroup class="text-border">
-                    <h5>Lorem ipsum</h5>
-                    <h6>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</h6>
+                    <h5>Bhagath</h5>
+                    <h6>Media Team 2024</h6>
                 </hgroup>
                 <hgroup class="text-border">
-                    <h5>Lorem ipsum</h5>
-                    <h6>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</h6>
+                    <h5>Devin</h5>
+                    <h6>Media Team 2024</h6>
+                </hgroup>
+                <hgroup class="text-border">
+                    <h5>Joel</h5>
+                    <h6>Media Team 2024</h6>
+                </hgroup>
+                <hgroup class="text-border">
+                    <h5>Nirmal</h5>
+                    <h6>Media Team 2024</h6>
+                </hgroup>
+                <hgroup class="text-border">
+                    <h5>Ram Mohan</h5>
+                    <h6>Media Team 2024</h6>
                 </hgroup>
                 <hgroup>
-                    <h5>Lorem ipsum</h5>
-                    <h6>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</h6>
+                    <h5>Ritwik</h5>
+                    <h6>Media Team 2024</h6>
                 </hgroup>
             </div>
         </details>
@@ -97,17 +103,11 @@
 </main>
 
 <style lang="scss">
-    .info {
-        border: solid 1px rgba($color: aqua, $alpha: 0.25);
-        border-radius: var(--border-radius);
-        padding: 0.5rem;
-        width: fit-content;
-        background: rgba($color: aqua, $alpha: 0.125);
-    }
-
     .bg-grad {
+        font-size: 2rem;
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
         background-clip: text;
+        margin-bottom: 0;
         color: transparent;
     }
 
