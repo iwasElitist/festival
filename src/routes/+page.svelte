@@ -13,8 +13,8 @@
 </svelte:head>
 
 <div class="layout">
-    <video id="video" autoplay loop muted>
-        <source src="{base}/background.mp4" type="video/webm"/>
+    <video id="video" autoplay loop muted preload="auto">
+        <source src="{base}/background.mp4" type="video/mp4"/>
     </video>
     <img src="{base}/images/lafest-aurora.svg" alt="affects"/>
     <div class="text">

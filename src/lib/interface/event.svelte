@@ -22,7 +22,7 @@
 
         function isDevice1(screenRatio1: any) {
             if (screenRatio1.matches) {
-                document.body.style.height = "100vh";
+                document.body.style.height = "100lvh";
             } else {
                 document.body.style.height = "100%";
             }
