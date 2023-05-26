@@ -117,6 +117,7 @@
 
                 button {
                     transform: translateY(calc(100dvh - 200%));
+                    transition: transform 0.25s;
                 }
             }
         }
