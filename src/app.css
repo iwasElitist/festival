@@ -23,7 +23,7 @@
 }
 
 :root {
-    --font-family: "Dosis Variable", sans-serif;
+    --font-family: "Dosis Variable";
 }
 
 [data-theme="light"],
