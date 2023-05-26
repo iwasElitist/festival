@@ -33,7 +33,7 @@
             <p>Learn. Adapt. Evolve. The matrix pushes you to your ultimate potential. Work fast but never alone in this improv event. Play your part and be content or step out of the mundane, aiming for the unprecedented. Be the stroke of luck your team desperately needs and open the pathway to glory. Block N' Tangles awaits.</p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><i>Contact Navneeth V. Sanker at +91 94958 23690 for more info</i>
+                    <span class="material-icons">info</span><div><i>Contact Navneeth V. Sanker at +91 94958 23690 for more info</i></div>
                 </div>
             </footer>
         </article>
@@ -65,6 +65,12 @@
         padding: 0.5rem;
         width: fit-content;
         background: rgba($color: aqua, $alpha: 0.125);
+        display: flex;
+        flex-direction: row;
+        @media screen and (min-width: 1024px) {
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .bg-grad {

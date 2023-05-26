@@ -1,18 +1,29 @@
-@import 'material-icons/iconfont/material-icons.css';
+@import '@fontsource/material-icons';
+@import '@fontsource-variable/dosis';
 
 .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+
     margin-right: 0.25rem;
     vertical-align: text-bottom;
 }
 
-
-@font-face {
-    font-family: "Dosis Regular";
-    src: url("./fonts/Dosis-Regular.woff2")
-}
-
 :root {
-    --font-family: "Dosis Regular";
+    --font-family: "Dosis Variable", sans-serif;
 }
 
 [data-theme="light"],

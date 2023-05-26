@@ -1,5 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
+    import { base } from "$app/paths";
 
     onMount(() => {
         document.body.style.backgroundImage = "radial-gradient(rgba($color: rgb(71, 153, 102), $alpha: 50%) 0%, transparent 50%, transparent 100%)";
@@ -13,9 +14,9 @@
 
 <div class="layout">
     <video id="video" autoplay loop muted>
-        <source src="background.mp4"/>
+        <source src="{base}/background.mp4" type="video/webm"/>
     </video>
-    <img src="./images/lafest-aurora.svg" alt="affects"/>
+    <img src="{base}/images/lafest-aurora.svg" alt="affects"/>
     <div class="text">
         <div class="title">
             <h1>LAFEST</h1>
@@ -54,6 +55,10 @@
         justify-content: center;
         align-items: center;
         padding-top: calc(var(--spacing) * 2);
+    }
+
+    .layout {
+        margin-top: var(--block-spacing-vertical);
     }
 
     @media screen and (max-width: 1024px) {

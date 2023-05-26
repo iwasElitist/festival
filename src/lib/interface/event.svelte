@@ -5,12 +5,12 @@
     let hoverIcon: boolean = false;
     let isMounted: boolean = false;
 
-    export let name: string = 'Lorem';
-    export let link: string = './';
-    export let info: string = 'Lorem Ipsum';
-    export let image: string = 'event.png';
-    export let thumbnail: string = 'event.png';
-    export let color: string = 'red';
+    export let name: string;
+    export let link: string;
+    export let info: string;
+    export let image: string;
+    export let thumbnail: string;
+    export let color: string;
 
     onMount(() => {
         document.body.style.backgroundSize = "cover";
