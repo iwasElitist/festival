@@ -33,7 +33,7 @@
             <p>Boldness, creativity, uniqueness and elegance. L'attire is an event where you need to present all these skills to put yourself ahead of others. Follow the trend or set a new one. All that matters is the outcome. So, select your front man, create a work of art and prove yourself on the dais. Step up and conquer L'attire.</p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><i>Contact Don Roshan Thomas at +91 70125 73189 for more info</i>
+                    <span class="material-icons">info</span><div><i>Contact Don Roshan Thomas at +91 70125 73189 for more info</i></div>
                 </div>
             </footer>
         </article>
@@ -71,6 +71,12 @@
         padding: 0.5rem;
         width: fit-content;
         background: rgba($color: aqua, $alpha: 0.125);
+        display: flex;
+        flex-direction: row;
+        @media screen and (min-width: 1024px) {
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .bg-grad {

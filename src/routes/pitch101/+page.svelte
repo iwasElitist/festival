@@ -33,7 +33,7 @@
             <p>Do you know what the definition of insanity is? Insanity is doing the same thing over and over again, expecting things to change. That's what advertisements are becoming. Repetitive. Boring. Changless. Aren't you tired of these ads? This is your chance to change it all. We give the product; you make the ad. The goal? To catch the eye of every beholder! Every word, every shot, and every transition matters. Captivate the audience with your Pitch 101.</p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><i>Contact Devin Maheswar at +91 80755 13601 for more info</i>
+                    <span class="material-icons">info</span><div><i>Contact Devin Maheswar at +91 80755 13601 for more info</i></div>
                 </div>
             </footer>
         </article>
@@ -73,6 +73,12 @@
         padding: 0.5rem;
         width: fit-content;
         background: rgba($color: aqua, $alpha: 0.125);
+        display: flex;
+        flex-direction: row;
+        @media screen and (min-width: 1024px) {
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .bg-grad {

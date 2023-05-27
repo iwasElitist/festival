@@ -33,7 +33,7 @@
             <p>Lose yourself in the groove of the beat as you set the stage on fire and prove to the world your burning desire. Enthral the audience with the rhythem coursing through your veins. Match the beat and bring forth the heat in Dance O' Mania.</p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><i>Contact Aadithyan K.A. at +91 96336 44710 for more info</i>
+                    <span class="material-icons">info</span><div><i>Contact Aadithyan K.A. at +91 96336 44710 for more info</i></div>
                 </div>
             </footer>
         </article>
@@ -70,6 +70,12 @@
         padding: 0.5rem;
         width: fit-content;
         background: rgba($color: aqua, $alpha: 0.125);
+        display: flex;
+        flex-direction: row;
+        @media screen and (min-width: 1024px) {
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .bg-grad {

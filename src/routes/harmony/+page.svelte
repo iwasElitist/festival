@@ -32,7 +32,9 @@
         <article>
             <p>Listen as every chord that is struck takes you to a place supernal… As the symphony of melodies flows through the air and enters the very pores of your skin… As music infused with passion permeates the atmosphere… As your heartbeat syncs with the beats echoing around you… Listen to Harmony.</p>
             <footer>
-                <div class="info"><span class="material-icons">info</span><i>Contact Niranjan B. Kumar at +91 91882 62721 for more info</i></div>
+                <div class="info">
+                    <span class="material-icons">info</span><div><i>Contact Niranjan B. Kumar at +91 91882 62721 for more info</i></div>
+                </div>
             </footer>
         </article>
         <article>
@@ -69,6 +71,12 @@
         padding: 0.5rem;
         width: fit-content;
         background: rgba($color: aqua, $alpha: 0.125);
+        display: flex;
+        flex-direction: row;
+        @media screen and (min-width: 1024px) {
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .bg-grad {

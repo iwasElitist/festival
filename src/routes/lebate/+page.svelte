@@ -33,7 +33,7 @@
             <p>Here is a chance to showcase your literary prowess, fight for your ideas, and challenge your intellect in this cerebral battle fought not with swords or steel, but with logic and wit. Your convictions will be tested against those of others, and the best tool you possess is your own mind. Sharpen your senses, think outside the box, express yourself and revel in this singular experience we call L'ebate.</p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><i>Contact Matthew K. Mathen at +91 88484 08296 for more info</i>
+                    <span class="material-icons">info</span><div><i>Contact Matthew K. Mathen at +91 88484 08296 for more info</i></div>
                 </div>
             </footer>
         </article>
@@ -71,6 +71,12 @@
         padding: 0.5rem;
         width: fit-content;
         background: rgba($color: aqua, $alpha: 0.125);
+        display: flex;
+        flex-direction: row;
+        @media screen and (min-width: 1024px) {
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .bg-grad {

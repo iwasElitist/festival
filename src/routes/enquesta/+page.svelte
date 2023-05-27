@@ -32,9 +32,9 @@
         <article>
             <p>Take on the challenge in this battle where it matters what you know and how much of it you know. Indeed, one must seek the truth within, not without. All that matters is your ability to discern. Cut through the veils of ignorance in order to find the answer hidden right where you are looking. Enter the gates, for Enquesta awaits a new champion.</p>
             <footer>
-            <div class="info">
-                <span class="material-icons">info</span><i>Contact Joel Jobby Jacob at +91 94479 76650 for more info</i>
-            </div>
+                <div class="info">
+                    <span class="material-icons">info</span><div><i>Contact Joel Jobby Jacob at +91 94479 76650 for more info</i></div>
+                </div>
             </footer>
         </article>
         <article>
@@ -60,6 +60,12 @@
         padding: 0.5rem;
         width: fit-content;
         background: rgba($color: aqua, $alpha: 0.125);
+        display: flex;
+        flex-direction: row;
+        @media screen and (min-width: 1024px) {
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .bg-grad {
