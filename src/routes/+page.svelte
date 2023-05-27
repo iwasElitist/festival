@@ -13,10 +13,10 @@
 </svelte:head>
 
 <div class="layout">
-    <video id="video" autoplay loop muted preload="auto">
+    <video id="video" width="1920px" height="1080px" autoplay loop muted preload="auto">
         <source src="{base}/background.mp4" type="video/mp4"/>
     </video>
-    <img src="{base}/images/lafest-aurora.svg" alt="affects"/>
+    <img src="{base}/images/lafest-aurora.svg" height="40%" width="40%" alt="affects"/>
     <div class="text">
         <div class="title">
             <h1>LAFEST</h1>
@@ -36,6 +36,7 @@
         min-width: 100%;
         min-height: 100%;
         z-index: -1;
+        aspect-ratio: 16 / 9;
     }
 
     .quote {
