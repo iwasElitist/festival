@@ -15,7 +15,7 @@ const config = {
         adapter: adapter(),
         prerender: {concurrency: 5},
         paths: {
-            base: process.env.NODE_ENV === 'production' ? '/festival' : '',
+            base: process.env.NODE_ENV === 'production' ? '' : '',
             relative: false
         }
     }
