@@ -16,12 +16,7 @@
         document.body.style.backgroundBlendMode = "multiply"
         document.body.style.backgroundImage = `url(${image})`;
         document.body.style.backgroundAttachment = "fixed";
-        document.body.style.position = "fixed";
-        document.body.style.top = "0";
-        document.body.style.left = "0";
-        document.body.style.height = "100vh";
-        document.body.style.width = "100%";
-        document.body.style.zIndex = "-1";
+        document.body.style.height = "100lvh";
         document.body.style.transition = "height 0.25s";
 
         return () => {
