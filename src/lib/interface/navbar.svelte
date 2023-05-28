@@ -19,7 +19,7 @@
             <a href="{base}/about" role="button" class="outline">About</a>
         </li>
         <li id="button-container">
-            <button class="btn" aria-label="Open the menu" on:click="{() => menuOpen = !menuOpen}">
+            <button class="btn large" aria-label="Open the menu" on:click="{() => menuOpen = !menuOpen}">
                 {#if menuOpen === false}
                     <svg class="change" transition:slide="{{delay: 250, duration: 150}}" height="20px" version="1.1" viewBox="0 0 28.751 18.52" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-6.2186 23.222)"><g fill="#fff" stroke-width="0"><rect x="6.2186" y="-23.222" width="22.6" height="2.0724" stop-color="#000000"/><rect x="6.2186" y="-14.998" width="28.751" height="2.0724" stop-color="#000000"/><rect x="6.2186" y="-6.7742" width="18.554" height="2.0724" stop-color="#000000"/></g></g></svg>
                 {:else}
@@ -41,8 +41,37 @@
         </div>
     {/if}
 </nav>
+<button class="btn small" aria-label="Open the menu" on:click="{() => menuOpen = !menuOpen}">
+    {#if menuOpen === false}
+        <svg class="change" transition:slide="{{delay: 250, duration: 150}}" height="20px" version="1.1" viewBox="0 0 28.751 18.52" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-6.2186 23.222)"><g fill="#fff" stroke-width="0"><rect x="6.2186" y="-23.222" width="22.6" height="2.0724" stop-color="#000000"/><rect x="6.2186" y="-14.998" width="28.751" height="2.0724" stop-color="#000000"/><rect x="6.2186" y="-6.7742" width="18.554" height="2.0724" stop-color="#000000"/></g></g></svg>
+    {:else}
+        <svg class="change" transition:slide="{{delay: 250, duration: 150}}" height="20px" version="1.1" viewBox="0 0 28.751 18.521" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-25.088 -26.69)"><path d="m30.203 28.242 1.5524-1.5524 7.7079 7.7081 7.7081-7.7081 1.5524 1.5524-7.7079 7.7081 7.7079 7.7079-1.5524 1.5524-7.7081-7.7079-7.7079 7.7079-1.5524-1.5524 7.7079-7.7079z" fill="#fff" stop-color="#000000" stroke-width="0"/></g></svg>
+    {/if}
+</button>
+
 
 <style lang="scss">
+    .change {
+        path {
+            fill: var(--primary);
+        }
+
+        g {
+            fill: var(--primary);
+        }
+    }
+
+    .btn {
+        background: var(--card-sectionning-background-color);
+    }
+
+    button {
+        padding: 5px;
+        width: fit-content;
+        height: fit-content;
+        margin: 0;
+    }
+
     .nav {
         position: sticky;
         top: 0;
@@ -59,27 +88,6 @@
             }
         }
 
-        .change {
-            path {
-                fill: var(--primary);
-            }
-
-            g {
-                fill: var(--primary);
-            }
-        }
-
-        .btn {
-            background: var(--card-sectionning-background-color);
-            overflow: hidden;
-        }
-
-        button {
-            padding: 5px;
-            width: fit-content;
-            height: fit-content;
-            margin: 0;
-        }
 
         .menu {
             display: flex;
@@ -117,11 +125,33 @@
                     width: 100%;
                 }
 
-                button {
-                    transform: translateY(calc(100dvh - 200%));
-                    transition: transform 0.25s;
+                .large {
+                    display: none;
                 }
             }
         }
     }
+
+    @media screen and (min-width: 1025px) {
+        .small {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        .small {
+            display: none;
+        }
+
+        @media screen and (max-width: 380px) {
+            .small {
+                display: block;
+                position: fixed;
+                bottom: 15px;
+                right: 15px;
+                z-index: 2;
+            }
+        }
+    }
+
 </style>
