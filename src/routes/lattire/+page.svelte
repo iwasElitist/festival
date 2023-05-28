@@ -30,7 +30,7 @@
             <h2 class="bg-grad">L'attire</h2>
         </div>
         <article>
-            <p>Boldness, creativity, uniqueness and elegance. L'attire is an event where you need to present all these skills to put yourself ahead of others. Follow the trend or set a new one. All that matters is the outcome. So, select your front man, create a work of art and prove yourself on the dais. Step up and conquer L'attire.</p>
+            <p>Boldness, creativity, uniqueness and elegance. L'attire is an event where you need to present all these skills to put yourself ahead of others. Follow the trend or set a new one. All that matters is the outcome. So, select your frontman, create a work of art and prove yourself on the dais. Step up and conquer L'attire.</p>
             <footer>
                 <div class="info">
                     <span class="material-icons">info</span><div><i>Contact Don Roshan Thomas at +91 70125 73189 for more info</i></div>
@@ -51,12 +51,12 @@
         <article>
             <h3>Rules</h3>
             <div class="rules">
-                <div class="text-border"><p>One team representing each school comprising 3 models and 3 designers.</p></div>
+                <div class="text-border"><p>One team representing each school, comprising 3 models and 3 designers.</p></div>
                 <div class="text-border"><p>Teams will be assigned a theme 6 hours before the event.</p></div>
-                <div class="text-border"><p>Each team is expected to prepeare 3 costumes along with a minimum of 1 prop relevant to the theme.</p></div>
+                <div class="text-border"><p>Each team is expected to prepare 3 costumes along with a minimum of 1 prop relevant to the theme.</p></div>
                 <div class="text-border"><p>Each team is expected to prepare 3 costumes along with a minimum of 1 prop relevant to the theme.</p></div>
                 <div class="text-border"><p>Materials for the preparation of the costumes should be brought by the participants.</p></div>
-                <div class="text-border"><p>You may play music of your choice during the 5 minute ramp walk.</p></div>
+                <div class="text-border"><p>You may play music of your choice during the 5-minute ramp walk.</p></div>
                 <div class="text-border"><p>The designed costume must be worn over a black base.</p></div>
                 <div><p>The designers should prepare a short description of the outfits for the judges.</p></div>
             </div>

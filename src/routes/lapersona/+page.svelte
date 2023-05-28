@@ -30,7 +30,7 @@
             <h2 class="bg-grad">La Persona</h2>
         </div>
         <article>
-            <p>Cut through the facade and bring your actual self to the stage. This is the only event in LA Fest where you are truly and completely alone. Only your persona can save you in this war with yourself, therefore let your truest self be judged without fear of being judged. The different levels of your persona will be explored and tested. You may even be exposed. Bask in the glory of your own authenticity. Welcome to La Persona</p>
+            <p>Cut through the facade and bring your actual self to the stage. This is the only event in LA Fest where you are truly and completely alone. Only your persona can save you in this war with yourself, therefore let your truest self be judged without fear of being judged. The different levels of your persona will be explored and tested. You may even be exposed. Bask in the glory of your authenticity. Welcome to La Persona.</p>
             <footer>
                 <div class="info">
                     <span class="material-icons">info</span><div><i>Contact Madhav Pradeep at +91 97784 87168 for more info</i></div>
@@ -52,7 +52,7 @@
             <h3>Rules</h3>
             <div class="rules">
                 <div class="text-border"><p>A school can send a maximum of four participants.</p></div>
-                <div class="text-border"><p>There will be six rounds - two preliminary with one of them being written and another a surprise, then four onstage rounds Round 1 through 4. Round 1 is to introduce yourself with a prop. Round 2 is a situation round, the participants will be given situations and their reactions will be judged. Round 3 is a Surprise. Round 4 is the Judges' Round, the participants will be questioned by the judges.</p></div>
+                <div class="text-border"><p>There will be six rounds - two preliminary with one of them being written and another a surprise, then four onstage rounds Round 1 through 4. Round 1 is to introduce yourself with a prop. Round 2 is a situation round, the participants will be given situations and their reactions will be judged. The third round is a surprise and round 4 is the Judges' Round, the participants will be questioned by the judges.</p></div>
                 <div class="text-border"><p>Participants are expected to be dressed modestly.</p></div>
                 <div><p>No vulgarity or obscenity will be tolerated.</p></div>
             </div>

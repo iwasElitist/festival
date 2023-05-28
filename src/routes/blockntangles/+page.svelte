@@ -50,7 +50,7 @@
             <h3>Rules</h3>
             <div class="rules">
                 <div class="text-border"><p>A school can send two teams consisting of three members each.</p></div>
-                <div class="text-border"><p>There will be two offstage rounds, involving a preliminary writtern round to decide the teams that qualify for the second group discussion round.</p></div>
+                <div class="text-border"><p>There will be two offstage rounds, involving a preliminary written round to decide the teams that qualify for the second group discussion round.</p></div>
                 <div class="text-border"><p>Four teams will qualify for the final onstage event.</p></div>
                 <div><p>The onstage event will consist of three rounds.</p></div>
             </div>

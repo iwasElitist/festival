@@ -71,6 +71,7 @@
 
         .btn {
             background: var(--card-sectionning-background-color);
+            overflow: hidden;
         }
 
         button {
@@ -83,6 +84,7 @@
         .menu {
             display: flex;
             align-items: center;
+            justify-content: center;
             position: absolute;
             white-space: nowrap;
             height: 100%;

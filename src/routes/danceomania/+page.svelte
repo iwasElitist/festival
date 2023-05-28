@@ -48,13 +48,13 @@
         <article>
             <h3 class="underline">Rules</h3>
             <div class="rules">
-                <div class="text-border"><p>Only one team comprising eight to sixteen participants from each school.</p></div>
+                <div class="text-border"><p>Only one team comprised of 8 to 16 participants from each school.</p></div>
                 <div class="text-border"><p>Performance should not exceed eight minutes.</p></div>
                 <div class="text-border"><p>Choose any track or music.</p></div>
-                <div class="text-border"><p>Do not use any party poppers, explosive items, or any powerdery materials like ashes and vermillion during the performance.</p></div>
+                <div class="text-border"><p>Do not use any party poppers, explosive items, or any powdery materials like ashes and vermillion during the performance.</p></div>
                 <div class="text-border"><p>All sequences must be performed onstage.</p></div>
-                <div class="text-border"><p>Obscenity or vulgarity in the song or action will lead to diqualification.</p></div>
-                <div class="text-border"><p>USBs are compulsary and should be brought by the participating schools and handed over to the event head on the day of the fest.</p></div>
+                <div class="text-border"><p>Obscenity or vulgarity in the song or action will lead to disqualification.</p></div>
+                <div class="text-border"><p>USB drives are compulsory and should be brought by the participating schools and handed over to the event head on the day of the fest.</p></div>
                 <div class="text-border"><p>Special lighting will not be available.</p></div>
                 <div class="text-border"><p>Judges' decision will be final.</p></div>
                 <div><p>If any team portrays a particular theme, it must be clear to the judges and the audience.</p></div>

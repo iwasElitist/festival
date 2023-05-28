@@ -30,7 +30,7 @@
             <h2 class="bg-grad">Pitch 101</h2>
         </div>
         <article>
-            <p>Do you know what the definition of insanity is? Insanity is doing the same thing over and over again, expecting things to change. That's what advertisements are becoming. Repetitive. Boring. Changless. Aren't you tired of these ads? This is your chance to change it all. We give the product; you make the ad. The goal? To catch the eye of every beholder! Every word, every shot, and every transition matters. Captivate the audience with your Pitch 101.</p>
+            <p>Do you know what the definition of insanity is? Insanity is doing the same thing over and over again, expecting things to change. That's what advertisements are becoming. Repetitive. Boring. Changeless. Aren't you tired of these ads? This is your chance to change it all. We give the product; you make the ad. The goal? To catch the eye of every beholder! Every word, every shot, and every transition matters. Captivate the audience with your Pitch 101.</p>
             <footer>
                 <div class="info">
                     <span class="material-icons">info</span><div><i>Contact Devin Maheswar at +91 80755 13601 for more info</i></div>
@@ -43,7 +43,7 @@
                 <div class="text-border"><p>Plot (Story Arc and Plausibility)</p></div>
                 <div class="text-border"><p>Attraction (Premise & Entertainment Value)</p></div>
                 <div class="text-border"><p>Theme (Identity & Depth)</p></div>
-                <div class="text-border"><p>Tagline (Slogan of the brand)</p></div>
+                <div class="text-border"><p>Tag line (Slogan of the brand)</p></div>
                 <div class="text-border"><p>Cinematography (Visual Language & lighting, Setting, and Wardrobe)</p></div>
                 <div><p>Editing (Pace & Effects)</p></div>
             </div>
@@ -58,7 +58,7 @@
                 <div class="text-border"><p>Participants are permitted to bring their smartphone.</p></div>
                 <div class="text-border"><p>Use of presets and AI-generated videos is strictly prohibited.</p></div>
                 <div class="text-border"><p>Editors can use Adobe After Effects, Adobe Premiere Pro, DaVinci Resolve, VSDC or any editing software of their choice to edit.</p></div>
-                <div class="text-border"><p>Participants should create and submit a tagline related to their product.</p></div>
+                <div class="text-border"><p>Participants should create and submit a tag line related to their product.</p></div>
                 <div class="text-border"><p>Each team can have two editors and two videographers.</p></div>
                 <div><p>The duration of the video must be between 30 seconds and one minute 30 seconds.</p></div>
             </div>

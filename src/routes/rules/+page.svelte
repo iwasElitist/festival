@@ -16,7 +16,7 @@
             <div class="text-border"><p>All participants and non-participants should be in their respective school uniforms.</p></div>
             <div class="text-border"><p>LA Fest badges will be distributed at the registration desk. All participants and non-participants must wear their badges throughout the fest.</p></div>
             <div class="text-border"><p>Two green rooms will be provided for each school.</p></div>
-            <div class="text-border"><p>The cost of a food coupon is Rs. 300, Booking of food coupons close on the 25 June 2023. Cancellation of booking is not allowed.</p></div>
+            <div class="text-border"><p>The cost of a food coupon is <i class="material-icons">currency_rupee</i>300, Booking of food coupons close on 25<sup>th</sup> June 2023. Cancellation of booking is not allowed.</p></div>
             <div class="text-border"><p>Vulgarity or obscenity in language or actions will lead to disqualitification.</p></div>
             <div class="text-border"><p>Food and beverages are not allowed in the indoor stadium.</p></div>
             <div class="text-border"><p>Participating schools are expected to cooperate with the organisers and maintain a spirit of healthy competition.</p></div>
@@ -32,6 +32,13 @@
         background-clip: text;
         margin-bottom: 0;
         color: transparent;
+    }
+
+    .material-icons {
+        margin: 0;
+        padding: 0;
+        font-size: 0.9rem;
+        vertical-align: -2px;
     }
 
     .rules {

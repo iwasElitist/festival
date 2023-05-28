@@ -53,11 +53,11 @@
                 <div class="text-border"><p>A minimum of five and a maximum of ten participants are allowed in a team.</p></div>
                 <div class="text-border"><p>Each team has eight minutes for performance and two minutes for stage setting.</p></div>
                 <div class="text-border"><p>Each team must have a minimum of three instruments and not more than four vocalists.</p></div>
-                <div class="text-border"><p>All categories of songs are allowed except devotional and classical songs.</p></div>
+                <div class="text-border"><p>All categories of songs are allowed, except devotional and classical songs.</p></div>
                 <div class="text-border"><p>USB-MIDI controllers, synthesisers and shoulder synthesisers are permitted on condition that they are pre-recorded MIDI loops.</p></div>
-                <div class="text-border"><p>Other pre-recorded MIDI files, rhythem boxes, karaoke, drum pads and rhythem pads are not permitted.</p></div>
+                <div class="text-border"><p>Other pre-recorded MIDI files, rhythm boxes, karaoke, drum pads and rhythm pads are not permitted.</p></div>
                 <div class="text-border"><p>Six output cables, five microphones, two keyboard stands and a standard drum kit will be provided.</p></div>
-                <div class="text-border"><p>Additional instruments and accessories should be brought byt the contestants, if required.</p></div>
+                <div class="text-border"><p>Additional instruments and accessories should be brought by the contestants, if required.</p></div>
                 <div><p>Amplifiers will be made available to teams upon request.</p></div>
             </div>
         </article>
