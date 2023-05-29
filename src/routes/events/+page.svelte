@@ -23,18 +23,18 @@
     </div>
     <div class="events-container">
         <div class="events">
-            <Event name="Block N' Tangles" info="Improv" color="#21543D" image="{base}/images/events/blockntangles.webp" thumbnail={blockntangles} link="{base}/blockntangles"/>
-            <Event name="Dance O' Mania" info="Dance" color="#6A0F31" image="{base}/images/events/danceomania.webp" thumbnail={danceomania} link="{base}/danceomania"/>
-            <Event name="Enquesta" info="Quiz" color="#896111" image="{base}/images/events/enquesta.webp" thumbnail={enquesta} link="{base}/enquesta"/>
+            <Event name="Block N' Tangles" color="#21543D" image="{base}/images/events/blockntangles.webp" thumbnail={blockntangles} link="{base}/blockntangles"/>
+            <Event name="Dance O' Mania" color="#6A0F31" image="{base}/images/events/danceomania.webp" thumbnail={danceomania} link="{base}/danceomania"/>
+            <Event name="Enquesta" color="#896111" image="{base}/images/events/enquesta.webp" thumbnail={enquesta} link="{base}/enquesta"/>
         </div>
         <div class="events">
-            <Event name="Harmony" info="Music" color="#824F51" image="{base}/images/events/harmony.webp" thumbnail={harmony} link="{base}/harmony"/>
-            <Event name="LA Persona" info="Personality" color="#897A11" image="{base}/images/events/lapersona.webp" thumbnail={lapersona} link="{base}/lapersona"/>
+            <Event name="Harmony" color="#824F51" image="{base}/images/events/harmony.webp" thumbnail={harmony} link="{base}/harmony"/>
+            <Event name="LA Persona" color="#897A11" image="{base}/images/events/lapersona.webp" thumbnail={lapersona} link="{base}/lapersona"/>
         </div>
         <div class="events">
-            <Event name="L'Attire" info="Fashion" color="#607B84" image="{base}/images/events/lattire.webp" thumbnail={lattire} link="{base}/lattire"/>
-            <Event name="L'ebate" info="Debate" color="#766E7D" image="{base}/images/events/lebate.webp" thumbnail={lebate} link="{base}/lebate"/>
-            <Event name="Pitch 101" info="Marketing" color="#498E7B" image="{base}/images/events/pitch101.webp" thumbnail={pitch101} link="{base}/pitch101"/>
+            <Event name="L'Attire" color="#607B84" image="{base}/images/events/lattire.webp" thumbnail={lattire} link="{base}/lattire"/>
+            <Event name="L'ebate" color="#766E7D" image="{base}/images/events/lebate.webp" thumbnail={lebate} link="{base}/lebate"/>
+            <Event name="Pitch 101" color="#498E7B" image="{base}/images/events/pitch101.webp" thumbnail={pitch101} link="{base}/pitch101"/>
         </div>
     </div>
 </div>

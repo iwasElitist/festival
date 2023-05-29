@@ -7,7 +7,6 @@
 
     export let name: string;
     export let link: string;
-    export let info: string;
     export let image: string;
     export let thumbnail: string;
     export let color: string;
@@ -61,7 +60,6 @@
         <div class="image"></div>
         <hgroup class="text">
             <h6>{name}</h6>
-            <h6>{info}</h6>
         </hgroup>
         {#if hoverIcon === true}
             <svg transition:fade|local="{{delay: 100,duration: 150}}" width="50px" height="50px" version="1.1" viewBox="0 0 18.521 18.521" xmlns="http://www.w3.org/2000/svg">
