@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-    <title>LAFEST 2023 - Block N' Tangles</title>
+    <title>LA FEST 2023 - Block N' Tangles</title>
     <meta name="description" content="Block N' Tangles, an event in LAFEST 2023">
 </svelte:head>
 

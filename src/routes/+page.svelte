@@ -31,7 +31,7 @@
 </script>
 
 <svelte:head>
-    <title>LAFEST 2023</title>
+    <title>LA FEST 2023</title>
     <meta name="description" content="Website for LAFEST 2023">
 </svelte:head>
 
@@ -42,7 +42,7 @@
     <img src="{base}/images/lafest-aurora.svg" height="40%" width="40%" alt="affects"/>
     <div class="text">
         <div class="title">
-            <h1>LAFEST</h1>
+            <h1>LA FEST</h1>
             <h1>2023</h1>
         </div>
         <div class="quote">

@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-    <title>LAFEST 2023 - Enquesta</title>
+    <title>LA FEST 2023 - Enquesta</title>
     <meta name="description" content="Enquesta, an event in LAFEST 2023">
 </svelte:head>
 

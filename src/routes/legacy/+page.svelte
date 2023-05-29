@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>LAFEST 2023 - Legacy</title>
+    <title>LA FEST 2023 - Legacy</title>
     <meta name="description" content="Legacy of LAFEST">
 </svelte:head>
 

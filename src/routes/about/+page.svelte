@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>LAFEST 2023 - About</title>
+    <title>LA FEST 2023 - About</title>
     <meta name="description" content="About us, the organisers of LAFEST">
 </svelte:head>
 

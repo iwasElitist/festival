@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-    <title>LAFEST 2023 - La Persona</title>
+    <title>LA FEST 2023 - La Persona</title>
     <meta name="description" content="La Persona, an event in LAFEST 2023">
 </svelte:head>
 

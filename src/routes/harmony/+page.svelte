@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-    <title>LAFEST 2023 - Harmony</title>
+    <title>LA FEST 2023 - Harmony</title>
     <meta name="description" content="Harmony, an event in LAFEST 2023">
 </svelte:head>
 

@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>LAFEST 2023 - Pitch 101</title>
+    <title>LA FEST 2023 - Pitch 101</title>
     <meta name="description" content="Pitch 101, an event in LAFEST 2023">
 </svelte:head>
 

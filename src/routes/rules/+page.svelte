@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>LAFEST 2023 - Rules</title>
+    <title>LA FEST 2023 - Rules</title>
 </svelte:head>
 
 <main class="container">

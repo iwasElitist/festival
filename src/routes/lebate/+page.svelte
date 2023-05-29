@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-    <title>LAFEST 2023 - L'ebate</title>
+    <title>LA FEST 2023 - L'ebate</title>
     <meta name="description" content="L'ebate, an event in LAFEST 2023">
 </svelte:head>
 

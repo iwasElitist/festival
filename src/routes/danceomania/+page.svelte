@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-    <title>LAFEST 2023 - Dance O' Mania</title>
+    <title>LA FEST 2023 - Dance O' Mania</title>
     <meta name="description" content="Dance O' Mania, an event in LAFEST 2023">
 </svelte:head>
 
