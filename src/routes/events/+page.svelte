@@ -29,10 +29,10 @@
         </div>
         <div class="events">
             <Event name="Harmony" info="Music" color="#824F51" image="{base}/images/events/harmony.webp" thumbnail={harmony} link="{base}/harmony"/>
-            <Event name="La Persona" info="Personality" color="#897A11" image="{base}/images/events/lapersona.webp" thumbnail={lapersona} link="{base}/lapersona"/>
+            <Event name="LA Persona" info="Personality" color="#897A11" image="{base}/images/events/lapersona.webp" thumbnail={lapersona} link="{base}/lapersona"/>
         </div>
         <div class="events">
-            <Event name="L'attire" info="Fashion" color="#607B84" image="{base}/images/events/lattire.webp" thumbnail={lattire} link="{base}/lattire"/>
+            <Event name="L'Attire" info="Fashion" color="#607B84" image="{base}/images/events/lattire.webp" thumbnail={lattire} link="{base}/lattire"/>
             <Event name="L'ebate" info="Debate" color="#766E7D" image="{base}/images/events/lebate.webp" thumbnail={lebate} link="{base}/lebate"/>
             <Event name="Pitch 101" info="Marketing" color="#498E7B" image="{base}/images/events/pitch101.webp" thumbnail={pitch101} link="{base}/pitch101"/>
         </div>

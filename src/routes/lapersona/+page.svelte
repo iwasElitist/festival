@@ -20,14 +20,14 @@
 </script>
 
 <svelte:head>
-    <title>LA FEST 2023 - La Persona</title>
+    <title>LA FEST 2023 - LA Persona</title>
     <meta name="description" content="La Persona, an event in LAFEST 2023">
 </svelte:head>
 
 <div class="background">
     <main class="container">
         <div class="title">
-            <h2 class="bg-grad">La Persona</h2>
+            <h2 class="bg-grad">LA Persona</h2>
         </div>
         <article>
             <p>Cut through the facade and bring your actual self to the stage. This is the only event in LA Fest where you are truly and completely alone. Only your persona can save you in this war with yourself, therefore let your truest self be judged without fear of being judged. The different levels of your persona will be explored and tested. You may even be exposed. Bask in the glory of your authenticity. Welcome to La Persona.</p>
