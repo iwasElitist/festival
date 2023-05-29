@@ -5,7 +5,8 @@
     import Typeist from '$lib/interface/typeit.svelte'
 
     onMount(() => {
-        document.body.style.backgroundImage = "radial-gradient(rgba($color: rgb(71, 153, 102), $alpha: 50%) 0%, transparent 50%, transparent 100%)";
+        document.body.style.backgroundImage = "linear-gradient(transparent 0%, #131d22 100%)";
+        document.body.style.height = "100vh"
 
         let final = new Date("Jul 1, 2023 00:00:00").getTime();
 
@@ -25,9 +26,15 @@
                 document.getElementById("timer").innerHTML = "Now";
             }
         }, 1000);
+
+        return () => {
+            document.body.style.backgroundImage = "none";
+            clearInterval(time);
+        }
     })
 
     let tag: string = "\"Indulge in ardour, revel in grandeur\""
+
 </script>
 
 <svelte:head>
@@ -43,7 +50,7 @@
     <div class="text">
         <div class="title">
             <h1>LA FEST</h1>
-            <h1>2023</h1>
+            <h1 style="font-family: 'Inter Tight Variable';">2023</h1>
         </div>
         <div class="quote">
             <Typeist sentence={tag}/>
@@ -70,7 +77,7 @@
 
     .quote {
         border-inline-start-color: #26353b;
-        font-family: "Flare Regular";
+        font-family: "BEYNO";
         text-align: center;
     }
 
@@ -114,7 +121,7 @@
 
         h1 {
             margin: 0;
-            font-family: "Flare Regular";
+            font-family: "BEYNO";
             font-size: 3rem;
             background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
             background-clip: text;

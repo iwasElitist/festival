@@ -24,6 +24,19 @@
         </div>
     </article>
     <article class="legacy">
+        <div class="bg-img" style:background="#000"><img src="./images/legacy/2017.webp" alt="legacy"></div>
+        <div class="text">
+            <p class="text-border">N/A</p>
+            <hgroup>
+                <h4>A 13 Year Old Dream of 130 Odd Loyolites</h4>
+                <h5>The LA Fest that never got the chance to show itself, but still was the source of inspiration for many a loyolite of the batch of 2018 and beyond. Their efforts did not go unseen…</h5>
+            </hgroup>
+            <div class="winners">
+                <span class="material-icons">workspace_premium</span><b>N/A</b>
+            </div>
+        </div>
+    </article>
+    <article class="legacy">
         <div class="bg-img" style:background="#d4d4d4"><img src="./images/legacy/2016.webp" alt="legacy"></div>
         <div class="text">
             <p class="text-border">25.06.16</p>
