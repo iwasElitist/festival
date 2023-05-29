@@ -5,9 +5,6 @@
     import Typeist from '$lib/interface/typeit.svelte'
 
     onMount(() => {
-        document.body.style.backgroundImage = "linear-gradient(transparent 0%, #131d22 100%)";
-        document.body.style.height = "100vh"
-
         let final = new Date("Jul 1, 2023 00:00:00").getTime();
 
         let time = setInterval(function() {
