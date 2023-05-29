@@ -56,7 +56,7 @@
                 <div class="text-border"><p>Obscenity or vulgarity in the song or action will lead to disqualification.</p></div>
                 <div class="text-border"><p>USB drives are compulsory and should be brought by the participating schools and handed over to the event head on the day of the fest.</p></div>
                 <div class="text-border"><p>Special lighting will not be available.</p></div>
-                <div class="text-border"><p>Judges' decision will be final.</p></div>
+                <div class="text-border"><p>Judge's decision will be final.</p></div>
                 <div><p>If any team portrays a particular theme, it must be clear to the judges and the audience.</p></div>
             </div>
         </article>
