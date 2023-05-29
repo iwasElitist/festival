@@ -5,16 +5,16 @@
         <link rel="icon" type="image/svg" href="/images/lafest-aurora.svg" />
         <meta name="viewport" content="width=device-width" />
         
-		<link href="/_app/immutable/assets/0.b16a473c.css" rel="stylesheet">
-		<link href="/_app/immutable/assets/2.48e2b960.css" rel="stylesheet">
-		<link rel="modulepreload" href="/_app/immutable/entry/start.8c6aadaf.js">
+		<link href="/_app/immutable/assets/0.faf9e06c.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/2.0d93ae60.css" rel="stylesheet">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.9eb37a5a.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/index.5e5e48d7.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.5116f850.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/paths.c1159132.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.e41bab7c.js">
-		<link rel="modulepreload" href="/_app/immutable/nodes/0.921c217d.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.5d38bc3f.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/paths.df9fdfc9.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.fbe67a51.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/0.b20404de.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/index.ec4ce3fe.js">
-		<link rel="modulepreload" href="/_app/immutable/nodes/2.9de0be6e.js"><title>LAFEST 2023</title><!-- HEAD_svelte-h9i6r2_START --><meta name="description" content="Website for LAFEST 2023"><!-- HEAD_svelte-h9i6r2_END -->
+		<link rel="modulepreload" href="/_app/immutable/nodes/2.cff6791e.js"><title>LAFEST 2023</title><!-- HEAD_svelte-h9i6r2_START --><meta name="description" content="Website for LAFEST 2023"><!-- HEAD_svelte-h9i6r2_END -->
     </head>
     <body data-sveltekit-preload-data="hover">
         <div style="display: contents">
@@ -32,18 +32,19 @@
 
 
 
-<div class="layout svelte-1cuc3i9"><video id="video" width="2560px" height="1440px" autoplay loop muted preload="auto" class="svelte-1cuc3i9"><source src="/background.webm" type="video/webm"></video>
-    <img src="/images/lafest-aurora.svg" height="40%" width="40%" alt="affects" class="svelte-1cuc3i9">
-    <div class="text svelte-1cuc3i9"><div class="title svelte-1cuc3i9"><h1 class="svelte-1cuc3i9">LAFEST</h1>
-            <h1 class="svelte-1cuc3i9">2023</h1></div>
-        <blockquote class="quote svelte-1cuc3i9"><p class="svelte-1cuc3i9">&quot;Indulge in ardour, revel in grandeur&quot;</p></blockquote></div>
+<div class="layout svelte-1k6bss"><video id="video" width="2560px" height="1440px" autoplay loop muted preload="auto" class="svelte-1k6bss"><source src="/background.webm" type="video/webm"></video>
+    <img src="/images/lafest-aurora.svg" height="40%" width="40%" alt="affects" class="svelte-1k6bss">
+    <div class="text svelte-1k6bss"><div class="title svelte-1k6bss"><h1 class="svelte-1k6bss">LAFEST</h1>
+            <h1 class="svelte-1k6bss">2023</h1></div>
+        <div class="quote svelte-1k6bss"><span class="svelte-ie5khx"></span></div>
+        <div id="timer" class="svelte-1k6bss"></div></div>
 </div>
 
 
 			
 			<script>
 				{
-					__sveltekit_18a7b9t = {
+					__sveltekit_1hkt71s = {
 						base: "",
 						env: {}
 					};
@@ -53,8 +54,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("/_app/immutable/entry/start.8c6aadaf.js"),
-						import("/_app/immutable/entry/app.e41bab7c.js")
+						import("/_app/immutable/entry/start.9eb37a5a.js"),
+						import("/_app/immutable/entry/app.fbe67a51.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
