@@ -24,7 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource-variable/dosis": "^5.0.1",
+		"@fontsource-variable/inter-tight": "^5.0.2",
 		"@fontsource/material-icons": "^5.0.1",
 		"@picocss/pico": "^1.5.10",
 		"autoprefixer": "^10.4.14",
@@ -34,6 +34,7 @@
 		"postcss-preset-env": "^8.4.1",
 		"sass": "^1.62.1",
 		"svelte-preprocess": "^5.0.3",
-		"svelte-preprocess-import-assets": "^1.0.0"
+		"svelte-preprocess-import-assets": "^1.0.0",
+		"typeit": "^8.7.1"
 	}
 }

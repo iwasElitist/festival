@@ -23,7 +23,7 @@
     </div>
     <div class="events-container">
         <div class="events">
-            <Event name="Block N' Tangles" info="Comedy" color="#21543D" image="{base}/images/events/blockntangles.webp" thumbnail={blockntangles} link="{base}/blockntangles"/>
+            <Event name="Block N' Tangles" info="Improv" color="#21543D" image="{base}/images/events/blockntangles.webp" thumbnail={blockntangles} link="{base}/blockntangles"/>
             <Event name="Dance O' Mania" info="Dance" color="#6A0F31" image="{base}/images/events/danceomania.webp" thumbnail={danceomania} link="{base}/danceomania"/>
             <Event name="Enquesta" info="Quiz" color="#896111" image="{base}/images/events/enquesta.webp" thumbnail={enquesta} link="{base}/enquesta"/>
         </div>

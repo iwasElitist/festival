@@ -8,9 +8,9 @@
             <h1 class="bg-grad">Rules</h1>
         </header>
         <div class="rules">
-            <div class="text-border"><p>The last date for submitting the completed forms is 15th June 2023.</p></div>
+            <div class="text-border"><p>The last date for submitting the completed forms is 15<sup>th</sup> June 2023.</p></div>
             <div class="text-border"><p>Registration is free for all schools. All students from classes IX to XII are eligible to participate. The reporting time is 7:30 am.</p></div>
-            <div class="text-border"><p>Each school is expected to participate in a least three events.</p></div>
+            <div class="text-border"><p>Each school is expected to participate in at least three events.</p></div>
             <div class="text-border"><p>A student cannot participate in more than two events.</p></div>
             <div class="text-border"><p>The maximum number of non-participants from a school is fifty.</p></div>
             <div class="text-border"><p>All participants and non-participants should be in their respective school uniforms.</p></div>

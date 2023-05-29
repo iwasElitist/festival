@@ -79,7 +79,7 @@
             </div>
         </details>
         <details>
-            <summary>Who are we?</summary>
+            <summary>Credits</summary>
             <div class="members">
                 <hgroup class="text-border">
                     <h5>Aromal</h5>

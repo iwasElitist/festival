@@ -54,7 +54,6 @@
                 <div class="text-border"><p>One team representing each school, comprising 3 models and 3 designers.</p></div>
                 <div class="text-border"><p>Teams will be assigned a theme 6 hours before the event.</p></div>
                 <div class="text-border"><p>Each team is expected to prepare 3 costumes along with a minimum of 1 prop relevant to the theme.</p></div>
-                <div class="text-border"><p>Each team is expected to prepare 3 costumes along with a minimum of 1 prop relevant to the theme.</p></div>
                 <div class="text-border"><p>Materials for the preparation of the costumes should be brought by the participants.</p></div>
                 <div class="text-border"><p>You may play music of your choice during the 5-minute ramp walk.</p></div>
                 <div class="text-border"><p>The designed costume must be worn over a black base.</p></div>

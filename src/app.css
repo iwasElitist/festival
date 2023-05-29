@@ -1,5 +1,10 @@
 @import '@fontsource/material-icons';
-@import '@fontsource-variable/dosis';
+@import '@fontsource-variable/inter-tight';
+
+@font-face {
+    src: url("$lib/Flare-Regular.woff");
+    font-family: "Flare Regular";
+}
 
 .material-icons {
     font-family: 'Material Icons';
@@ -23,7 +28,7 @@
 }
 
 :root {
-    --font-family: "Dosis Variable";
+    --font-family: "Inter Tight Variable";
 }
 
 [data-theme="light"],

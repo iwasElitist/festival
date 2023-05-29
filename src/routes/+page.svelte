@@ -2,9 +2,32 @@
     import { onMount } from "svelte";
     import { base } from "$app/paths";
 
+    import Typeist from '$lib/interface/typeit.svelte'
+
     onMount(() => {
         document.body.style.backgroundImage = "radial-gradient(rgba($color: rgb(71, 153, 102), $alpha: 50%) 0%, transparent 50%, transparent 100%)";
+
+        let final = new Date("Jul 1, 2023 00:00:00").getTime();
+
+        let time = setInterval(function() {
+            let now = new Date().getTime();
+            let left = final - now;
+
+            let days = Math.floor(left / (1000 * 60 * 60 * 24))
+            let hours = Math.floor((left % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            let minutes = Math.floor((left % (1000 * 60 * 60)) / (1000 * 60));
+            let seconds = Math.floor((left % (1000 * 60)) / 1000);
+
+            document.getElementById("timer").innerHTML = days + " d " + hours + " h " + minutes + " m " + seconds + " s";
+
+            if (left < 0) {
+                clearInterval(time);
+                document.getElementById("timer").innerHTML = "Now";
+            }
+        }, 1000);
     })
+
+    let tag: string = "\"Indulge in ardour, revel in grandeur\""
 </script>
 
 <svelte:head>
@@ -22,13 +45,19 @@
             <h1>LAFEST</h1>
             <h1>2023</h1>
         </div>
-        <blockquote class="quote">
-            <p>"Indulge in ardour, revel in grandeur"</p>
-        </blockquote>
+        <div class="quote">
+            <Typeist sentence={tag}/>
+        </div>
+        <div id="timer">
+        </div>
     </div>
 </div>
 
 <style lang="scss">
+    #timer {
+        color: var(--credit-border);
+    }
+
     #video {
         position: fixed;
         right: 0;
@@ -41,14 +70,8 @@
 
     .quote {
         border-inline-start-color: #26353b;
-
-        p {
-            margin: 0;
-            font-size: 1.25rem;
-            background-image: linear-gradient(to bottom right, seagreen 0%, seagreen 25%, aqua 75%);
-            background-clip: text;
-            color: transparent;
-        }
+        font-family: "Flare Regular";
+        text-align: center;
     }
 
     div {
@@ -91,6 +114,7 @@
 
         h1 {
             margin: 0;
+            font-family: "Flare Regular";
             font-size: 3rem;
             background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
             background-clip: text;
