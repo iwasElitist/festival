@@ -59,7 +59,9 @@
 
 <style lang="scss">
     #timer {
-        color: var(--credit-border);
+        background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
+        background-clip: text;
+        color: transparent;
     }
 
     #video {
@@ -73,9 +75,10 @@
     }
 
     .quote {
-        border-inline-start-color: #26353b;
+        font-size: 0.5rem;
         font-family: "BEYNO";
         text-align: center;
+        word-wrap: normal;
     }
 
     div {
@@ -96,7 +99,7 @@
             .text {
                 width: 100%;
                 @media screen and (min-width: 500px) {
-                    width: 400px;
+                    width: 500px;
                 }
                 padding-bottom: 0;
                 padding-top: 0;

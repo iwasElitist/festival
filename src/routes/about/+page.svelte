@@ -52,12 +52,12 @@
                     <h6><span class="material-icons">call</span> +91 94958 23690</h6>
                 </hgroup>
                 <hgroup class="text-border">
-                    <h5>La Persona</h5>
+                    <h5>LA Persona</h5>
                     <h6><span class="material-icons">perm_identity</span> Madhav Pradeep</h6>
                     <h6><span class="material-icons">call</span> +91 97784 87168</h6>
                 </hgroup>
                 <hgroup class="text-border">
-                    <h5>L'attire</h5>
+                    <h5>L'Attire</h5>
                     <h6><span class="material-icons">perm_identity</span> Don Roshan Thomas</h6>
                     <h6><span class="material-icons">call</span> +91 70125 73189</h6>
                 </hgroup>
