@@ -76,7 +76,7 @@
 
     .quote {
         font-size: 0.5rem;
-        font-family: "BEYNO";
+        font-family: "Flare Regular";
         text-align: center;
         word-wrap: normal;
     }
@@ -121,7 +121,7 @@
 
         h1 {
             margin: 0;
-            font-family: "BEYNO";
+            font-family: "Flare Regular";
             font-size: 3rem;
             background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
             background-clip: text;
