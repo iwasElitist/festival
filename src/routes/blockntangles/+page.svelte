@@ -33,7 +33,7 @@
             <p>Learn. Adapt. Evolve. The matrix pushes you to your ultimate potential. Work fast but never alone in this improv event. Play your part and be content or step out of the mundane, aiming for the unprecedented. Be the stroke of luck your team desperately needs and open the pathway to glory. Block N' Tangles awaits.</p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><div><i>Contact Navaneeth V. Sanker at +91 94958 23690 for more info</i></div>
+                    <span class="material-icons">info</span><div><i>Contact Navaneeth V. Sankar at +91 94958 23690 for more info</i></div>
                 </div>
             </footer>
         </article>

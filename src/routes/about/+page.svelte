@@ -48,7 +48,7 @@
                 </hgroup>
                 <hgroup class="text-border">
                     <h5>Block N' Tangles</h5>
-                    <h6><span class="material-icons">perm_identity</span> Navaneeth V. Sanker</h6>
+                    <h6><span class="material-icons">perm_identity</span> Navaneeth V. Sankar</h6>
                     <h6><span class="material-icons">call</span> +91 94958 23690</h6>
                 </hgroup>
                 <hgroup class="text-border">
