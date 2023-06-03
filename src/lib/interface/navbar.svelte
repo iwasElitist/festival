@@ -35,7 +35,7 @@
                     <a href="{base}/legacy" role="button" class="outline">Legacy</a>
                     <a href="{base}/rules" role="button" class="outline">Rules</a>
                     <a href="{base}/events" role="button" class="outline">Events</a>
-                    <a href="{base}/about" role="button" class="outline">About</a>
+                    <a href="{base}/about" role="button" class="outline">Contacts</a>
                 </li>
             </ul>
         </div>

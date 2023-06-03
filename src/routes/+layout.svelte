@@ -21,4 +21,13 @@
     b {
         font-weight: 600;
     }
+
+    .box {
+        margin-top: var(--block-spacing-vertical);
+        padding: calc(var(--block-spacing-vertical) * .66) var(--block-spacing-horizontal);
+    }
+
+    header {
+        margin-bottom: var(--block-spacing-horizontal);
+    }
 </style>

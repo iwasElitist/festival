@@ -3,7 +3,7 @@
 </svelte:head>
 
 <main class="container">
-    <article>
+    <div class="box">
         <header>
             <h1 class="bg-grad">Rules</h1>
         </header>
@@ -22,7 +22,7 @@
             <div class="text-border"><p>Participating schools are expected to cooperate with the organisers and maintain a spirit of healthy competition.</p></div>
             <div><p>The decision of the judges will be final.</p></div>
         </div>
-    </article>
+    </div>
 </main>
 
 <style lang="scss">

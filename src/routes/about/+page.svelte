@@ -4,15 +4,15 @@
 </svelte:head>
 
 <main class="container">
-    <article>
+    <div class="box">
         <header>
             <h1 class="bg-grad">About</h1>
         </header>
         <p>The realm of Life and Arts opens up once again.</p>
         <p>Enter reality and embrace the truth as we search for the pinnacle of human talent. Give everything you have to offer. Engrave your presence in this arena, which may be the provenance of your aptitude yet to be discovered. The boulevard to Zion awaits your arrival. Overcome trials and prove the profound depth of your ardour.</p>
         <p>Welcome to the 23rd iteration of Life and Arts.</p>
-    </article>
-    <article>
+    </div>
+    <div class="box">
         <details>
             <summary>Contacts</summary>
             <div class="members">
@@ -111,7 +111,7 @@
                 </hgroup>
             </div>
         </details>
-    </article>
+    </div>
 </main>
 
 <style lang="scss">
