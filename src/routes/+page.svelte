@@ -31,7 +31,6 @@
     })
 
     let tag: string = "\"Indulge in ardour, revel in grandeur\""
-
 </script>
 
 <svelte:head>
@@ -53,6 +52,7 @@
             <Typeist sentence={tag}/>
         </div>
         <div id="timer">
+            loading...
         </div>
     </div>
 </div>
@@ -62,6 +62,7 @@
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
         background-clip: text;
         color: transparent;
+        margin-top: 1rem;
     }
 
     #video {
@@ -79,6 +80,7 @@
         font-family: "Flare Regular";
         text-align: center;
         word-wrap: normal;
+        height: 2rem;
     }
 
     div {

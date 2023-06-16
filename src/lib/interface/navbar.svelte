@@ -49,7 +49,6 @@
     {/if}
 </button>
 
-
 <style lang="scss">
     .logo {
         opacity: 75%;
@@ -81,7 +80,6 @@
         top: 0;
         padding-left: 0;
         backdrop-filter: blur(0.25rem);
-        border-bottom: solid 1px var(--secondary);
         z-index: 1;
         user-select: none;
 
