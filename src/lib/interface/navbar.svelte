@@ -75,11 +75,20 @@
         margin: 0;
     }
 
+    .nav::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        backdrop-filter: blur(0.25rem);
+        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    }
+
     .nav {
         position: sticky;
         top: 0;
         padding-left: 0;
-        backdrop-filter: blur(0.25rem);
         z-index: 1;
         user-select: none;
 
