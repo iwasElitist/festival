@@ -14,7 +14,7 @@
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundBlendMode = "multiply";
-        document.body.style.backgroundImage = `linear-gradient(to top, ${color}, #131d22)`;
+        document.body.style.backgroundImage = `linear-gradient(to top, ${color}, var(--background-color))`;
         document.body.style.transition = "background-color 1s ease-in-out, background-image 1s linear";
         const screenRatio1: any = window.matchMedia("(min-width: 1400px)");
 
