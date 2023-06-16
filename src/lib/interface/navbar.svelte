@@ -77,7 +77,7 @@
 
     .nav::before {
         content: "";
-        height: 100%;
+        height: calc(100% + 1rem);
         width: 100%;
         position: absolute;
         z-index: -1;
