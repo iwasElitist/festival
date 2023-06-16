@@ -8,7 +8,7 @@
         let final = new Date("Jul 1, 2023 00:00:00").getTime();
 
         let time = setInterval(function() {
-            let now = new Date().getTime();
+            let now = new Date().getTime() + (330 + new Date().getTimezoneOffset()) * 60000;
             let left = final - now;
 
             let days = Math.floor(left / (1000 * 60 * 60 * 24))
@@ -16,11 +16,11 @@
             let minutes = Math.floor((left % (1000 * 60 * 60)) / (1000 * 60));
             let seconds = Math.floor((left % (1000 * 60)) / 1000);
 
-            document.getElementById("timer").innerHTML = days + " d " + hours + " h " + minutes + " m " + seconds + " s";
+            document.getElementById("timer")!.innerHTML = days + " d " + hours + " h " + minutes + " m " + seconds + " s";
 
             if (left < 0) {
                 clearInterval(time);
-                document.getElementById("timer").innerHTML = "Now";
+                document.getElementById("timer")!.innerHTML = "Now";
             }
         }, 1000);
 
@@ -62,7 +62,6 @@
         background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
         background-clip: text;
         color: transparent;
-        margin-top: 1rem;
     }
 
     #video {
@@ -81,6 +80,7 @@
         text-align: center;
         word-wrap: normal;
         height: 2rem;
+        margin-bottom: 1rem;
     }
 
     div {
@@ -120,6 +120,7 @@
     .title {
         display: flex;
         flex-direction: column;
+        margin-bottom: 1rem;
 
         h1 {
             margin: 0;
@@ -128,6 +129,7 @@
             background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
             background-clip: text;
             color: transparent;
+            line-height: 1;
         }
     }
 
