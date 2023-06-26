@@ -1,27 +1,27 @@
 <script lang="ts">
     import { onMount } from "svelte";
 
-    let image: string = './images/events/enquesta.webp';
-    let color: string = "#896111"
+    let image: string = "./images/events/enquesta.webp";
+    let color: string = "#896111";
 
     onMount(() => {
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundPosition = "center";
-        document.body.style.backgroundColor = color
-        document.body.style.backgroundBlendMode = "multiply"
+        document.body.style.backgroundColor = color;
+        document.body.style.backgroundBlendMode = "multiply";
         document.body.style.backgroundImage = `url(${image})`;
         document.body.style.backgroundAttachment = "fixed";
 
         return () => {
             document.body.style.backgroundImage = "none";
             document.body.style.backgroundColor = "initial";
-        }
-    })
+        };
+    });
 </script>
 
 <svelte:head>
     <title>LA FEST 2023 - Enquesta</title>
-    <meta name="description" content="Enquesta, an event in LAFEST 2023">
+    <meta name="description" content="Enquesta, an event in LAFEST 2023" />
 </svelte:head>
 
 <div class="background">
@@ -30,23 +30,65 @@
             <h2 class="bg-grad">Enquesta</h2>
         </div>
         <article>
-            <p>Take on the challenge in this battle where it matters what you know and how much of it you know. Indeed, one must seek the truth within, not without. All that matters is your ability to discern. Cut through the veils of ignorance to find the answer hidden right where you are looking. Enter the gates, for Enquesta awaits a new champion.</p>
+            <p>
+                Take on the challenge in this battle where it matters what you
+                know and how much of it you know. Indeed, one must seek the
+                truth within, not without. All that matters is your ability to
+                discern. Cut through the veils of ignorance to find the answer
+                hidden right where you are looking. Enter the gates, for
+                Enquesta awaits a new champion.
+            </p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><div><i>Contact Joel Jobby Jacob at +91 94479 76650 for more info</i></div>
+                    <span class="material-icons">info</span>
+                    <div>
+                        <i
+                            >Contact Joel Jobby Jacob at +91 94479 76650 for
+                            more info</i
+                        >
+                    </div>
                 </div>
             </footer>
         </article>
         <article>
             <h3>Rules</h3>
             <div class="rules">
-                <div class="text-border"><p>A maximum of four teams from a school can participate in the prelims.</p></div>
-                <div class="text-border"><p>There can be two members per team.</p></div>
-                <div class="text-border"><p>There will be a preliminary round with twenty questions to select the teams for the finals.</p></div>
-                <div class="text-border"><p>No more than two teams from the same school can qualify for the finals.</p></div>
-                <div class="text-border"><p>In case of a tie, additional questions will be asked to resolve it.</p></div>
-                <div class="text-border"><p>The top six teams will proceed to the finals.</p></div>
-                <div class="text-border"><p>Questions for the finals can be of Pounce and Bounce, Point Auction or Rapid fire format.</p></div>
+                <div class="text-border">
+                    <p>
+                        A maximum of four teams from a school can participate in
+                        the prelims.
+                    </p>
+                </div>
+                <div class="text-border">
+                    <p>There can be two members per team.</p>
+                </div>
+                <div class="text-border">
+                    <p>
+                        There will be a preliminary round with twenty questions
+                        to select the teams for the finals.
+                    </p>
+                </div>
+                <div class="text-border">
+                    <p>
+                        No more than two teams from the same school can qualify
+                        for the finals.
+                    </p>
+                </div>
+                <div class="text-border">
+                    <p>
+                        In case of a tie, additional questions will be asked to
+                        resolve it.
+                    </p>
+                </div>
+                <div class="text-border">
+                    <p>The top six teams will proceed to the finals.</p>
+                </div>
+                <div class="text-border">
+                    <p>
+                        Questions for the finals can be of Pounce and Bounce,
+                        Point Auction or Rapid fire format.
+                    </p>
+                </div>
                 <div><p>The quiz master's decision is final.</p></div>
             </div>
         </article>
@@ -70,14 +112,19 @@
 
     .bg-grad {
         font-size: 2rem;
-        background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
+        background-image: linear-gradient(
+            to bottom right,
+            seaGreen 0%,
+            seaGreen 25%,
+            aqua 75%
+        );
         background-clip: text;
         margin-bottom: 0;
         color: transparent;
     }
 
     .rules {
-        border: solid 1px  var(--credit-border);
+        border: solid 1px var(--credit-border);
         border-radius: var(--border-radius);
 
         p {
@@ -92,7 +139,11 @@
 
     .background {
         height: 100%;
-        background: linear-gradient(to bottom, transparent 0%, var(--background-color) 75%);
+        background: linear-gradient(
+            to bottom,
+            transparent 0%,
+            var(--background-color) 75%
+        );
     }
 
     .title {

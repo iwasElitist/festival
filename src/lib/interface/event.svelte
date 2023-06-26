@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { onMount } from 'svelte';
+    import { onMount } from "svelte";
 
     let hoverIcon: boolean = false;
     let isMounted: boolean = false;
@@ -15,7 +15,8 @@
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundBlendMode = "multiply";
         document.body.style.backgroundImage = `linear-gradient(to top, ${color}, var(--background-color))`;
-        document.body.style.transition = "background-color 1s ease-in-out, background-image 1s linear";
+        document.body.style.transition =
+            "background-color 1s ease-in-out, background-image 1s linear";
         const screenRatio1: any = window.matchMedia("(min-width: 1400px)");
 
         function isDevice1(screenRatio1: any) {
@@ -25,17 +26,17 @@
                 document.body.style.height = "100%";
             }
         }
-        
-        isDevice1(screenRatio1)
-        screenRatio1.addListener(isDevice1)
+
+        isDevice1(screenRatio1);
+        screenRatio1.addListener(isDevice1);
 
         isMounted = true;
 
         return () => {
             document.body.style.backgroundColor = "initial";
             document.body.style.backgroundImage = "none";
-        }
-    })
+        };
+    });
 
     function handleHoverOn() {
         hoverIcon = !hoverIcon;
@@ -55,8 +56,15 @@
 </script>
 
 <a href={link}>
-    <div class="button" on:mouseover={handleHoverOn} on:mouseout={handleHoverOff} on:focus={handleHoverOn} on:blur={handleHoverOff} style="--image: url({thumbnail})">
-        <div class="image"></div>
+    <div
+        class="button"
+        on:mouseover={handleHoverOn}
+        on:mouseout={handleHoverOff}
+        on:focus={handleHoverOn}
+        on:blur={handleHoverOff}
+        style="--image: url({thumbnail})"
+    >
+        <div class="image" />
         <hgroup class="text">
             <h6>{name}</h6>
         </hgroup>
@@ -117,6 +125,6 @@
 
     .button:hover {
         box-shadow: var(--card-box-shadow);
-        transform: scale(102.5%); 
+        transform: scale(102.5%);
     }
 </style>

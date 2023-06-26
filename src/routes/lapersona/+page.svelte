@@ -1,27 +1,27 @@
 <script lang="ts">
     import { onMount } from "svelte";
 
-    let image: string = './images/events/lapersona.webp';
-    let color: string = "#897A11"
+    let image: string = "./images/events/lapersona.webp";
+    let color: string = "#897A11";
 
     onMount(() => {
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundPosition = "center";
-        document.body.style.backgroundColor = color
-        document.body.style.backgroundBlendMode = "multiply"
+        document.body.style.backgroundColor = color;
+        document.body.style.backgroundBlendMode = "multiply";
         document.body.style.backgroundImage = `url(${image})`;
         document.body.style.backgroundAttachment = "fixed";
 
         return () => {
             document.body.style.backgroundImage = "none";
             document.body.style.backgroundColor = "initial";
-        }
-    })
+        };
+    });
 </script>
 
 <svelte:head>
     <title>LA FEST 2023 - LA Persona</title>
-    <meta name="description" content="La Persona, an event in LAFEST 2023">
+    <meta name="description" content="La Persona, an event in LAFEST 2023" />
 </svelte:head>
 
 <div class="background">
@@ -30,10 +30,24 @@
             <h2 class="bg-grad">LA Persona</h2>
         </div>
         <article>
-            <p>Cut through the facade and bring your actual self to the stage. This is the only event in LA Fest where you are truly and completely alone. Only your persona can save you in this war with yourself, therefore let your truest self be judged without fear of being judged. The different levels of your persona will be explored and tested. You may even be exposed. Bask in the glory of your authenticity. Welcome to La Persona.</p>
+            <p>
+                Cut through the facade and bring your actual self to the stage.
+                This is the only event in LA Fest where you are truly and
+                completely alone. Only your persona can save you in this war
+                with yourself, therefore let your truest self be judged without
+                fear of being judged. The different levels of your persona will
+                be explored and tested. You may even be exposed. Bask in the
+                glory of your authenticity. Welcome to La Persona.
+            </p>
             <footer>
                 <div class="info">
-                    <span class="material-icons">info</span><div><i>Contact Madhav Pradeep at +91 97784 87168 for more info</i></div>
+                    <span class="material-icons">info</span>
+                    <div>
+                        <i
+                            >Contact Madhav Pradeep at +91 97784 87168 for more
+                            info</i
+                        >
+                    </div>
                 </div>
             </footer>
         </article>
@@ -51,9 +65,24 @@
         <article>
             <h3>Rules</h3>
             <div class="rules">
-                <div class="text-border"><p>A school can send a maximum of four participants.</p></div>
-                <div class="text-border"><p>There will be six rounds - two preliminary with one of them being written and another a surprise, then four onstage rounds Round 1 through 4. Round 1 is to introduce yourself with a prop. Round 2 is a situation round, the participants will be given situations and their reactions will be judged. The third round is a surprise and round 4 is the Judges' Round, the participants will be questioned by the judges.</p></div>
-                <div class="text-border"><p>Participants are expected to be dressed modestly.</p></div>
+                <div class="text-border">
+                    <p>A school can send a maximum of four participants.</p>
+                </div>
+                <div class="text-border">
+                    <p>
+                        There will be six rounds - two preliminary with one of
+                        them being written and another a surprise, then four
+                        onstage rounds Round 1 through 4. Round 1 is to
+                        introduce yourself with a prop. Round 2 is a situation
+                        round, the participants will be given situations and
+                        their reactions will be judged. The third round is a
+                        surprise and round 4 is the Judges' Round, the
+                        participants will be questioned by the judges.
+                    </p>
+                </div>
+                <div class="text-border">
+                    <p>Participants are expected to be dressed modestly.</p>
+                </div>
                 <div><p>No vulgarity or obscenity will be tolerated.</p></div>
             </div>
         </article>
@@ -77,14 +106,19 @@
 
     .bg-grad {
         font-size: 2rem;
-        background-image: linear-gradient(to bottom right, seaGreen 0%, seaGreen 25%, aqua 75%);
+        background-image: linear-gradient(
+            to bottom right,
+            seaGreen 0%,
+            seaGreen 25%,
+            aqua 75%
+        );
         margin-bottom: 0;
         background-clip: text;
         color: transparent;
     }
 
     .rules {
-        border: solid 1px  var(--credit-border);
+        border: solid 1px var(--credit-border);
         border-radius: var(--border-radius);
 
         p {
@@ -99,7 +133,11 @@
 
     .background {
         height: 100%;
-        background: linear-gradient(to bottom, transparent 0%, var(--background-color) 75%);
+        background: linear-gradient(
+            to bottom,
+            transparent 0%,
+            var(--background-color) 75%
+        );
     }
 
     .title {

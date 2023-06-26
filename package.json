@@ -28,7 +28,7 @@
 		"@fontsource/material-icons": "^5.0.1",
 		"@picocss/pico": "^1.5.10",
 		"autoprefixer": "^10.4.14",
-		"gh-pages": "^5.0.0",
+		"gh-pages": "^3.0.0",
 		"postcss": "^8.4.23",
 		"postcss-load-config": "^4.0.1",
 		"postcss-preset-env": "^8.4.1",
