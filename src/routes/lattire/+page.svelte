@@ -93,7 +93,7 @@
                 </div>
                 <div class="text-border">
                     <p>
-                        You may play music of your choice during the 5-minute
+                        You may play music of your choice during the 4-minute
                         ramp walk.
                     </p>
                 </div>
