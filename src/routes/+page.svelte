@@ -5,6 +5,7 @@
     import Typeist from "$lib/interface/typeit.svelte";
 
     onMount(() => {
+        /*
         let final = new Date("Jul 1, 2023 00:00:00").getTime();
         let current = new Date();
 
@@ -29,10 +30,11 @@
                 document.getElementById("timer")!.innerHTML = "Now";
             }
         }, 1000);
+        */
 
         return () => {
             document.body.style.backgroundImage = "none";
-            clearInterval(time);
+            // clearInterval(time);
         };
     });
 
@@ -70,22 +72,10 @@
         <div class="quote">
             <Typeist sentence={tag} />
         </div>
-        <div id="timer">loading...</div>
     </div>
 </div>
 
 <style lang="scss">
-    #timer {
-        background-image: linear-gradient(
-            to bottom right,
-            seaGreen 0%,
-            seaGreen 25%,
-            aqua 75%
-        );
-        background-clip: text;
-        color: transparent;
-    }
-
     #video {
         position: fixed;
         right: 0;
